@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constrainLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="379dp"
+        android:layout_height="375dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="123dp"
+            android:layout_height="125dp"
+            android:onClick="arttir"
+            app:layout_column="0"
+
+            app:layout_row="0"
+            app:srcCompat="@drawable/trabzonspor"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:onClick="arttir"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/trabzonspor"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:onClick="arttir"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/trabzonspor"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:onClick="arttir"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/trabzonspor"
+            android:contentDescription="TODO"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:onClick="arttir"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/trabzonspor"
+            android:contentDescription="TODO"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:onClick="arttir"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/trabzonspor"
+            android:contentDescription="TODO"/>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:onClick="arttir"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/trabzonspor"
+            android:contentDescription="TODO"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:onClick="arttir"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/trabzonspor"
+            android:contentDescription="TODO"/>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:onClick="arttir"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/trabzonspor"
+            android:contentDescription="TODO"/>
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/skorGostergesi"
+        android:layout_width="104dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout2"
+        tools:text="Skor : 0" />
+
+    <TextView
+        android:id="@+id/süreGostergesiTxtview"
+        android:layout_width="117dp"
+        android:layout_height="37dp"
+        android:text="Zaman : 0"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

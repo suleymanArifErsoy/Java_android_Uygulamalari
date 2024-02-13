@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1087605723171",
+    "project_id": "instaclone-5ad71",
+    "storage_bucket": "instaclone-5ad71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087605723171:android:e9b7737ea0433c4f04a196",
+        "android_client_info": {
+          "package_name": "com.example.deneme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087605723171-hgiprj0pfkbhdabn9j0gkf4bncf1jt8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj4_BQBCnHOXU76RwufSfFawTssQi3dpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087605723171-hgiprj0pfkbhdabn9j0gkf4bncf1jt8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

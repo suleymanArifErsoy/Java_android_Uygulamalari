@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityArt">
+
+    <EditText
+        android:id="@+id/tabloAdıText"
+        android:layout_width="295dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="59dp"
+        android:ems="10"
+        android:hint="@string/tabloadi"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/sanatciText"
+        android:layout_width="296dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="57dp"
+        android:ems="10"
+        android:hint="@string/sanatcininadi"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabloAdıText" />
+
+    <EditText
+        android:id="@+id/yapildigiYilText"
+        android:layout_width="303dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="58dp"
+        android:ems="10"
+        android:hint="@string/yapildigiyil"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sanatciText" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="291dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="50dp"
+        android:onClick="selectImage"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="TODO" />
+
+    <Button
+        android:id="@+id/kaydetButton"
+        android:layout_width="134dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="36dp"
+        android:onClick="save"
+        android:text="Save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yapildigiYilText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

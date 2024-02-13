@@ -1,0 +1,3 @@
+ninja: Entering directory `C:\javaAndorid\openCv_entegre\openCvLibary470\.cxx\Debug\4d2251y7\x86'
+[1/2] Building CXX object CMakeFiles/opencv_jni_shared.dir/dummy.cpp.o
+[2/2] Linking CXX static library libopencv_jni_shared.a

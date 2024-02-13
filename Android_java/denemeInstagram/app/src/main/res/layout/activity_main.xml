@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="false"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:onClick="login"
+        android:text="login"
+        app:layout_constraintStart_toStartOf="@+id/passawordText"
+        app:layout_constraintTop_toBottomOf="@+id/passawordText" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:onClick="signUp"
+        android:text="sign Up"
+        app:layout_constraintEnd_toEndOf="@+id/passawordText"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/login"
+        app:layout_constraintTop_toBottomOf="@+id/passawordText" />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="243dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:hint="Enter a email"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passawordText"
+        android:layout_width="238dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Passaword"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

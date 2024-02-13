@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\javaAndorid\OpenCvKamera\OpenCvLibary470\.cxx\Debug\2l1o5j4r\arm64-v8a'
+ninja: no work to do.
